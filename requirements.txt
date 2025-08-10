@@ -1,5 +1,7 @@
 streamlit
 yt-dlp
 moviepy
+imageio
+imageio-ffmpeg
 
 
