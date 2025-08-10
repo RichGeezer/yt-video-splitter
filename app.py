@@ -1,6 +1,6 @@
 import streamlit as st
 from yt_dlp import YoutubeDL
-from moviepy.editor import VideoFileClip
+from moviepy.video.io.VideoFileClip import VideoFileClip
 import os
 import tempfile
 
@@ -56,6 +56,7 @@ if yt_url and st.button("Download and Split"):
         st.write(f"Clip {idx+1}: {start} s to {end} s")
 
     video.close()
+
 
 
 
